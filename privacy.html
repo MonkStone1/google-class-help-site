@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Google Class Help</title>
+<meta name="description" content="Privacy Policy for Google Class Help, a local desktop application that connects to Google Classroom.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">Google Class Help</span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <p class="policy-updated">Last updated: September 17, 2026</p>
+      <p class="lede">
+        Google Class Help is a local desktop application. This policy explains what
+        Google Classroom data it accesses, why, and what happens to it.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What the application is</h2>
+      <p>
+        Google Class Help is installed and run on your own Windows computer. It is not a
+        website, it does not run on a server operated by the developer, and it has no
+        backend hosted in the cloud. All of the application's data processing — including
+        talking to Google's servers and storing the results — happens on your machine.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What Google Classroom data the application accesses</h2>
+      <p>
+        When you sign in, Google asks you to approve a specific set of read-only
+        permissions (scopes). The application only requests the following:
+      </p>
+      <table class="scope-table">
+        <thead>
+          <tr>
+            <th>Scope</th>
+            <th>What it allows</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>classroom.courses.readonly</code></td>
+            <td>Read the list of your courses/classes and basic course details, and determine whether you are a student or a teacher in each one.</td>
+          </tr>
+          <tr>
+            <td><code>classroom.student-submissions.me.readonly</code></td>
+            <td>Read coursework, due dates, your own submissions, and your grades for courses where you are a student — and, for courses where you are a teacher, the coursework and submission/grade information belonging to that course.</td>
+          </tr>
+          <tr>
+            <td><code>classroom.rosters.readonly</code></td>
+            <td>Read the list of students enrolled in a course where you are the teacher, so that submissions and grades can be matched to the right student.</td>
+          </tr>
+          <tr>
+            <td><code>classroom.profile.emails</code> <em>(optional)</em></td>
+            <td>Read a student's email address, requested only if and when the interface actually displays student emails.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">
+        Google Class Help only ever requests <strong>read-only</strong> access. It cannot
+        create, edit, grade, or delete anything in Google Classroom on your behalf, and it
+        never requests write-enabled scopes.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Why this data is needed</h2>
+      <p>
+        Each permission exists to power a specific part of the dashboard:
+      </p>
+      <ul>
+        <li>Course access lets the app show your subjects and, for teachers, tell teacher courses apart from student courses.</li>
+        <li>Coursework and submission access lets the app show assignments, due dates, statuses, and grades — the core purpose of the application.</li>
+        <li>Roster access lets a teacher account see which students are enrolled and match grades to the correct student.</li>
+        <li>Email access (only if used) lets student names be identified unambiguously where the interface shows email addresses.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What the application does with courses, assignments, grades, and submissions</h2>
+      <p>
+        This data is used strictly to display information back to you in a more convenient
+        dashboard: lists of courses, upcoming and overdue assignments, submission status,
+        and grades. For teacher accounts, the same data is used to show course-wide grade
+        and submission overviews.
+      </p>
+      <p>
+        The application does not modify anything in Google Classroom. It does not post,
+        submit, grade, or delete coursework, submissions, or grades. It does not share this
+        data with other Google Classroom users, and no other user of Google Classroom can
+        see data through this application.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Where data is stored</h2>
+      <p>
+        Everything the application retrieves — cached course, coursework, and grade data —
+        is stored locally in a database on your own computer, inside your user-specific
+        application data folder (for example, under <code>%LOCALAPPDATA%\GoogleClassHelp\</code>).
+        It is never uploaded to any server operated by the developer, because no such server exists.
+      </p>
+      <p>
+        Your Google OAuth token, which the application uses to stay signed in, is also
+        stored locally on your computer, in that same per-user application data folder
+        (for example, <code>%LOCALAPPDATA%\GoogleClassHelp\token.json</code>). It is not
+        embedded in the application, not shared between users on a shared computer, and not
+        transmitted anywhere except directly to Google's own authentication servers, which
+        is required for the sign-in to work.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Whether data is shared with third parties</h2>
+      <p>
+        No. Google Class Help does not send your Classroom data, your OAuth token, or any
+        other personal information to the developer, to analytics providers, or to any
+        other third party. The only party the application communicates with is Google's own
+        API, and only to retrieve the data you've authorized it to read.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Whether data is used for advertising</h2>
+      <p>
+        No. Google Class Help contains no advertising, no ad SDKs, and no analytics or
+        tracking of any kind. Your data is never used, sold, or shared for advertising or
+        any purpose unrelated to displaying your own Classroom information back to you.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>How to delete your local data</h2>
+      <p>
+        Because everything is stored on your own computer, you are always in full control
+        of it. You can:
+      </p>
+      <ul>
+        <li>Use the "Clear local cached data" option in the application's Settings page to remove the cached course, coursework, and grade data.</li>
+        <li>Use "Sign out" in Settings to remove your stored OAuth token from this computer, which also revokes the application's local access until you sign in again.</li>
+        <li>Manually delete the <code>%LOCALAPPDATA%\GoogleClassHelp\</code> folder to remove all locally stored data and the token at once.</li>
+        <li>Visit <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account &rarr; Security &rarr; Third-party access</a> to revoke Google Class Help's access to your Google account entirely.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy or how the application handles your data can be sent to
+        <a href="mailto:petrposl563@gmail.com">petrposl563@gmail.com</a>.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Google Class Help</span>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="mailto:petrposl563@gmail.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
